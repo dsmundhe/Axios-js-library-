@@ -1,0 +1,24 @@
+/* Loader.css */
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional background */
+  }
+  
+  .loader {
+    border: 8px solid #000000; /* Light grey background */
+    border-top: 8px solid #3498db; /* Blue spinner */
+    border-radius: 50%;
+    width: 60px; /* Size of the loader */
+    height: 60px; /* Size of the loader */
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
